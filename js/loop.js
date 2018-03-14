@@ -49,7 +49,7 @@ for (i= 0; i < letterArray.length; i++) {
 	console.log(letterArray[i])
 }
 
-
+// works now 
 
 
 // 99 bottles loops 
