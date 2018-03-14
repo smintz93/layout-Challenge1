@@ -58,21 +58,26 @@ for (i= 0; i < letterArray.length; i++) {
 // not sure if this is the correct way.
 // but this works 
 
-let beer = 99;
-while (beer > 0) {
-  let verse = [ // made an array 
-    beer + " bottles of beer on the wall,",
-    beer + " bottles of beer",
-    "Take one down, pass it around",  
-    (beer - 1) + " bottles of beer on the wall"
-  ].join("\n"); // join displays elements in a array as a string // /n new line inserted between in "" to make it go down a line
+// let beer = 99;
+// while (beer > 0) {
+  // let verse = [ // made an array 
+    // beer + " bottles of beer on the wall,",
+    // beer + " bottles of beer",
+    // "Take one down, pass it around",  
+    // (beer - 1) + " bottles of beer on the wall"
+  // ].join("\n"); // join displays elements in a array as a string // /n new line inserted between in "" to make it go down a line
  
-  console.log(verse);
+  // console.log(verse);
  
-  beer--;
+  // beer--;
 }
  
 
 //
+
+// better way to do it 
+
+for(let i=99; i>= 1; i--)
+	console.log(i + " bootles " + " of " + " beer " + " on " + " the " + " wall " + ", " + i + " bottles " + " of " + " beer " + ", " + " take " + " one " + " down " + "," + " pass " + " it " + " around " + ", " + (i-1) + " bottles " + " on " + " the " + " wall. ") 
 
 
