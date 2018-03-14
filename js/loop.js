@@ -42,23 +42,22 @@ for(let i = 1; i <=100; i++) {
 
 
 // Confused on how to do this 
+// know it has to be a for loop.
  
-
 for (i= 1; i <=5; i++) {
 
 
 }
 
 
-	
-
-
+//need help here 
 
 
 // 99 bottles loops 
 
 
 // not sure if this is the correct way.
+// but this works 
 
 let beer = 99;
 while (beer > 0) {
