@@ -41,16 +41,15 @@ for(let i = 1; i <=100; i++) {
 // xxxxx
 
 
-// Confused on how to do this 
-// know it has to be a for loop.
  
-for (i= 1; i <=5; i++) {
+const letterArray = ['X', "XX", "XXX", "XXXX", "XXXXX"]
 
 
+for (i= 0; i < letterArray.length; i++) {
+	console.log(letterArray[i])
 }
 
 
-//need help here 
 
 
 // 99 bottles loops 
